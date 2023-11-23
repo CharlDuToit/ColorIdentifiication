@@ -20,11 +20,15 @@ ColorPredictor class has methods for loading, training, infering and evaluating 
 ## Setup Instructions
 
 Run these instructions:
+
 conda create --name myenv python=3.8.18
+
 conda activate myenv
+
 pip install -r requirements.txt
 
 Download the Dataset from:
+
 https://drive.google.com/file/d/19DvNho1_Af3N1qiqz4j7tP-vmTHMof7v/view?usp=sharing
 
 ## Usage
