@@ -4,7 +4,7 @@ Classifies an image of a car to be one of 9 different colors.
 ## Description
 
 There are two main approaches.
-The first finds the color with the most occupancy by looking determining all the pixels that lie in the HSV range for a particular color.
+The first finds the color with the most occupancy by determining all the pixels that lie in the HSV range for a particular color.
 A weighted pixel count determines the label of the image. 
 This is a fully hard-coded unsupervised method.
 
@@ -16,6 +16,8 @@ During inference, the histograms of an image is compared to the trained average 
 The similarity determines the label of the image.
 
 ColorPredictor class has methods for loading, training, infering and evaluating images.
+
+See notebook.ipynb for a demonstration and explanation. 
 
 ## Setup Instructions
 
